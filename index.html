@@ -450,7 +450,7 @@
 				<img src="./public/nobrother.jpg"/>
 			</div>
 			<div id="login">
-				<form action="action.php" method="post">
+				<!--<form action="#" method="post">-->
 					<table>
 						<tr>
 							<td><input type="text" name="uname" placeholder="输入用户名"/></td>
@@ -459,11 +459,11 @@
 						</tr>
 						<tr>
 							<td><input type="password" name="upass" placeholder=""/></td>
-							<td><input type="submit" value="登陆"/></td>
+							<td><input type="submit" value="登陆" onclick="tologing()" /></td>
 							<td><a href="#"><input type="button" value="注册"/></a></td>
 						</tr>
 					</table>
-				</form>
+				<!--</form>-->
 			</div>
 		</div>
 		<!--header头结束-->
@@ -842,6 +842,15 @@
 				</p>
 			</center>
 		</div>
+		<script>
+
+			function tologing(){
+
+				window.location='./login.php';
+			}
+
+
+		</script>
 		<!--页面尾结束-->
 	</body>
 </html>

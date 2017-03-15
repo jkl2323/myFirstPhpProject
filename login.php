@@ -305,15 +305,15 @@
 				<div class="tishi">
 					<p>错误次数不得超过五次，否则会被锁定！</p>
 				</div>
-				<form action="#" method="post">
+				<form action="./log_andRegist/dologing.php" method="post">
 					<table width="380" border="0" cellspacing="15">
 						<tr>
 							<td class="you">用户名<span> *</span></td>
-							<td class="zuo"><input type="text" name=""/></td>
+							<td class="zuo"><input type="text" name="user"/></td>
 						</tr>
 						<tr>
 							<td class="you">密  码<span> *</span></td>
-							<td class="zuo"><input type="password" name=""/></td>
+							<td class="zuo"><input type="password" name="password"/></td>
 						</tr>
 						<tr style="text-align:center;">
 							<td class="btn" colspan="2">
@@ -342,6 +342,7 @@
 				</p>
 			</center>
 		</div>
+
 		<!--页面尾结束-->
 	</body>
 </html>
